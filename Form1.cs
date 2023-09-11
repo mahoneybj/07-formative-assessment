@@ -12,5 +12,10 @@ namespace Formative_assessment_07
         {
 
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
