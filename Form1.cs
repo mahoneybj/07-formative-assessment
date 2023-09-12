@@ -55,7 +55,7 @@ namespace Formative_assessment_07
             int num4 = Convert.ToInt32(textBox4.Text);
             int num5 = Convert.ToInt32(textBox5.Text);
             double total = num1 + num2 + num3 + num4 + num5;
-            string num = Convert.ToString(total/5);
+            string num = Convert.ToString(total / 5);
             textBox7.Text = num;
         }
     }
