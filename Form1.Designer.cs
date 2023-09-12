@@ -50,51 +50,51 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(58, 160);
-            textBox1.Margin = new Padding(2, 2, 2, 2);
+            textBox1.Location = new Point(27, 65);
+            textBox1.Margin = new Padding(1, 1, 1, 1);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(225, 43);
+            textBox1.Size = new Size(107, 23);
             textBox1.TabIndex = 0;
             textBox1.TextChanged += textBox1_TextChanged_1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(58, 279);
-            textBox2.Margin = new Padding(2, 2, 2, 2);
+            textBox2.Location = new Point(27, 113);
+            textBox2.Margin = new Padding(1, 1, 1, 1);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(225, 43);
+            textBox2.Size = new Size(107, 23);
             textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(58, 387);
-            textBox3.Margin = new Padding(2, 2, 2, 2);
+            textBox3.Location = new Point(27, 157);
+            textBox3.Margin = new Padding(1, 1, 1, 1);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(225, 43);
+            textBox3.Size = new Size(107, 23);
             textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(58, 496);
-            textBox4.Margin = new Padding(2, 2, 2, 2);
+            textBox4.Location = new Point(27, 201);
+            textBox4.Margin = new Padding(1, 1, 1, 1);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(225, 43);
+            textBox4.Size = new Size(107, 23);
             textBox4.TabIndex = 3;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(58, 607);
-            textBox5.Margin = new Padding(2, 2, 2, 2);
+            textBox5.Location = new Point(27, 246);
+            textBox5.Margin = new Padding(1, 1, 1, 1);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(225, 43);
+            textBox5.Size = new Size(107, 23);
             textBox5.TabIndex = 4;
             // 
             // button1
             // 
-            button1.Location = new Point(574, 160);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Location = new Point(268, 65);
+            button1.Margin = new Padding(1, 1, 1, 1);
             button1.Name = "button1";
-            button1.Size = new Size(169, 52);
+            button1.Size = new Size(79, 25);
             button1.TabIndex = 5;
             button1.Text = "Sum";
             button1.UseVisualStyleBackColor = true;
@@ -102,10 +102,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(574, 279);
-            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Location = new Point(268, 113);
+            button2.Margin = new Padding(1, 1, 1, 1);
             button2.Name = "button2";
-            button2.Size = new Size(169, 52);
+            button2.Size = new Size(79, 25);
             button2.TabIndex = 6;
             button2.Text = "Average";
             button2.UseVisualStyleBackColor = true;
@@ -113,39 +113,39 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(823, 165);
-            textBox6.Margin = new Padding(2, 2, 2, 2);
+            textBox6.Location = new Point(384, 67);
+            textBox6.Margin = new Padding(1, 1, 1, 1);
             textBox6.Name = "textBox6";
             textBox6.ReadOnly = true;
-            textBox6.Size = new Size(225, 43);
+            textBox6.Size = new Size(107, 23);
             textBox6.TabIndex = 7;
             textBox6.TextChanged += textBox6_TextChanged;
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(823, 284);
-            textBox7.Margin = new Padding(2, 2, 2, 2);
+            textBox7.Location = new Point(384, 115);
+            textBox7.Margin = new Padding(1, 1, 1, 1);
             textBox7.Name = "textBox7";
             textBox7.ReadOnly = true;
-            textBox7.Size = new Size(225, 43);
+            textBox7.Size = new Size(107, 23);
             textBox7.TabIndex = 8;
             textBox7.TextChanged += textBox7_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(58, 52);
-            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Location = new Point(27, 21);
+            label1.Margin = new Padding(1, 0, 1, 0);
             label1.Name = "label1";
-            label1.Size = new Size(325, 37);
+            label1.Size = new Size(145, 15);
             label1.TabIndex = 9;
             label1.Text = "Please enter five numbers:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(15F, 37F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1256, 770);
+            ClientSize = new Size(586, 312);
             Controls.Add(label1);
             Controls.Add(textBox7);
             Controls.Add(textBox6);
@@ -156,7 +156,7 @@
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(1, 1, 1, 1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
